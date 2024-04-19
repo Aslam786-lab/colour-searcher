@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Comfortaa", sans-serif;
+}
+
+
+.colour-searcher {
+  width: 50%;
+  height: 100vh;
+  background-color: rgb(236, 233, 233);
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto; 
+}
+
+.searched-content {
+  font-size: 12px;
+}
+
+.title {
+  margin-bottom: 40px;
+}
+
+.colour-input {
+  display: flex;
+}
+
+label {
+  width: 80px;
+  font-size: 12px;
+}
+
+input {
+  padding-left: 10px;
+  font-size: 12px;
+  height: 25px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+
+table {
+  font-size: 12px;
+  border-spacing: 0 10px;
+}
+
+
+
+th, td {
+  text-align: left;
+  padding: 0 20px;
+}
+
+
+tbody {
+  position:relative;
+  overflow-y: scroll;
+}
+
+.colour-item td:first-child {
+  width: 30px;
+  height: 30px;
+  border-radius: 10%;
+}
